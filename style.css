@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+#canvas {
+  background-image: linear-gradient(
+    rgb(63, 63, 255),
+    rgb(45, 45, 255),
+    rgb(1, 1, 255)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
